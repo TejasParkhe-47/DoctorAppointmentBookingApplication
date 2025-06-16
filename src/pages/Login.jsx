@@ -16,7 +16,7 @@ const Login = () => {
 
   const onSubmitHandler = async(event)=>{
 
-    event.preventDefault //to do not reload page
+    event.preventDefault() //to do not reload page
 
 
     console.log("onsumbit handler")
